@@ -321,7 +321,7 @@ function dark()
 {
     input[i].style.backgroundColor="grey";
 }
-ouput.style.backgroundColor="grey";
+output.style.backgroundColor="grey";
     element.className="dark-mode";
     toggle.style.backgroundColor="white";
     font.style.color="black";
@@ -332,7 +332,7 @@ ouput.style.backgroundColor="grey";
 {
     input[i].style.backgroundColor="white";
 }
-ouput.style.backgroundColor="white";
+output.style.backgroundColor="white";
     toggle.style.backgroundColor="black";
     font.style.color="white";
    element.className="light-mode";
