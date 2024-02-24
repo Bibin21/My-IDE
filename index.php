@@ -312,15 +312,27 @@ function dark()
     var font=document.getElementById('font');
     var toggle=document.getElementById('toggle');
     var element=document.body;
+    var input=document.getElementsByClassName("CodeMirror cm-s-default");
+    var ouput=document.getElementById("output");
   var checkbox=document.getElementById('switch');
   if(checkbox.checked==true)
   {
+    for(let i=0;i<3;i++)
+{
+    input[i].style.backgroundColor="grey";
+}
+ouput.style.backgroundColor="grey";
     element.className="dark-mode";
     toggle.style.backgroundColor="white";
     font.style.color="black";
   }
   else
   {
+    for(let i=0;i<3;i++)
+{
+    input[i].style.backgroundColor="white";
+}
+ouput.style.backgroundColor="white";
     toggle.style.backgroundColor="black";
     font.style.color="white";
    element.className="light-mode";
