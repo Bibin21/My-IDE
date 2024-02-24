@@ -1,6 +1,10 @@
-
+<?php
+//this is sample comment for new tag
+?>
 <html>
+   
     <head>
+        
         <script src="https://kit.fontawesome.com/d22e378a1e.js" crossorigin="anonymous"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
         <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/codemirror.css"> 
@@ -13,6 +17,7 @@
     </head>
     </head>
     <body>
+    
 <nav class="navbar">
     <h2>Online Code Editor</h2>
 <select name="Language" selected="C" id="dropdown" onchange="changelabel(value)">
@@ -44,6 +49,7 @@ class="checkbox"/>
     <label id="label2">CSS</label>
     <textarea name="Css"id="txt2" ></textarea>
     </div>
+    
     <div id="Container-2"class="Container-2" style="display:none;">
         <label id="label3">JS</label>
         <textarea name="JS"id="txt3"></textarea>
