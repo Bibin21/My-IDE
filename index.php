@@ -313,7 +313,7 @@ function dark()
     var toggle=document.getElementById('toggle');
     var element=document.body;
     var input=document.getElementsByClassName("CodeMirror cm-s-default");
-    var ouput=document.getElementById("output");
+    var output=document.getElementById("output");
   var checkbox=document.getElementById('switch');
   if(checkbox.checked==true)
   {
